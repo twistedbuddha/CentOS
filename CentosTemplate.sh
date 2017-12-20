@@ -3,6 +3,7 @@
 
 # Part 1
 # Update OS
+# This is another test to see if the branch of the master works
 yum makecache fast
 yum update –-skip-broken -y
 reboot
