@@ -3,6 +3,7 @@
 
 # Part 1
 # Update OS
+# This is a test to see if the changes I make locally move online
 yum makecache fast
 yum update –-skip-broken -y
 reboot
