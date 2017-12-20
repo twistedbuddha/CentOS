@@ -3,7 +3,7 @@
 
 # Part 1
 # Update OS
-yum makecache
+yum makecache fast
 yum update –-skip-broken -y
 reboot
 
@@ -88,4 +88,3 @@ history -cw
 
 # shutdown
 sys-unconfig
-
